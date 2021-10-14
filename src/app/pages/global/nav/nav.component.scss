@@ -1,0 +1,44 @@
+.nav-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-contain img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-btn p{
+    margin: 20px;
+}
+
+.nav-btn p:hover{
+    opacity: 50%;
+}
+
+
+@media (max-width: 576px){
+    .nav-logo h1{
+        opacity: 0%;
+    }
+}
+
+@media (max-width: 576px){
+    .nav-logo img{
+        width: 60%;
+    }
+}

@@ -1,0 +1,8 @@
+<div class="hero-contain">
+    <div class="hero-title">
+        <h2>{{hero.title}}</h2>
+    </div>
+    <div class="hero-images">
+        <img *ngFor="let img of hero.imgGallery" src="{{img.src}}" alt="{{img.alt}}">
+    </div>
+</div>

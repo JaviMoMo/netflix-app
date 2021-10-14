@@ -1,0 +1,22 @@
+.series-contain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+.series-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.series-title{
+    margin: 20px;
+}
+
+.series-images img{
+    width: 200px;
+    padding: 10px;
+}

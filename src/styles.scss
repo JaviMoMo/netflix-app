@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("./app/pages/global/nav/nav.component.scss");
+
+@import url("http://fonts.cdnfonts.com/css/netflix-sans%27");
+
+@import url("./app/pages/global/global.component.scss");
+@import url("./app/pages/global/hero/hero.component.scss");
+@import url("./app/pages/global/films/films.component.scss");
+@import url("./app/pages/global/series/series.component.scss");

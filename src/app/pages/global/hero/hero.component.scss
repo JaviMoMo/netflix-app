@@ -1,0 +1,22 @@
+.hero-contain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+.hero-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hero-title{
+    margin: 20px;
+}
+
+.hero-images img{
+    width: 200px;
+    padding: 10px;
+}

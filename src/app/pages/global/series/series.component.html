@@ -1,0 +1,8 @@
+<div class="series-contain">
+    <div class="series-title">
+        <h2>{{series.title}}</h2>
+    </div>
+    <div class="series-images">
+        <img *ngFor="let img of series.imgGallery" src="{{img.src}}" alt="{{img.alt}}">
+    </div>
+</div>
