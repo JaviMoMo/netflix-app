@@ -8,7 +8,7 @@
 .hero-images{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -17,6 +17,11 @@
 }
 
 .hero-images img{
-    width: 200px;
-    padding: 10px;
+    width: 300px;
+}
+
+.hero-images img:hover{
+    border: white 5px solid;
+    transition: 0.3s;
+    transform: scale(120%);
 }

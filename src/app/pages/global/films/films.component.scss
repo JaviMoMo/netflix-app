@@ -18,5 +18,10 @@
 
 .films-images img{
     width: 200px;
-    padding: 10px;
+}
+
+.films-images img:hover{
+    border: white 5px solid;
+    transition: 0.3s;
+    transform: scale(120%);
 }
