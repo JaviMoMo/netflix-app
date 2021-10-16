@@ -1,4 +1,4 @@
-import { NetflixModel } from './models/netflix-model';
+import { NetflixModel, Gallery } from './models/netflix-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,35 +13,50 @@ export class GlobalComponent implements OnInit {
     this.netflixmodel = {
       nav: {
         logo: {
-          src: '../../../../assets/logo.png',
-          alt: 'logo Warner',
+          src: '../../../../assets/logonetflix.png',
+          alt: 'logo netflix',
         },
-        title: 'Warner Live',
+        title: 'NETFLIX',
         home: 'Inicio',
         search: 'buscar',
       },
       hero: {
         title: 'Los 5 más populares hoy',
-        imgGallery: [
+        gallery: [
           {
-            src: '../../../../assets/1.png',
-            alt: '1',
+            number: '1',
+            film: {
+              src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABTkp23eunYEtrSm5sejd-IfNdBTlWLTrbiBPxwg9lIXHHyR4QeNHQUOXmtmo4aZx3yYz8D1jpGcTejKlxJ9D91Reu5aQuwGKf52P3MzYxJlhU0TCygTF3h2DPMFDEQ.webp?r=cd1',
+              alt: 'hola',
+            },
           },
           {
-            src: '../../../../assets/2.png',
-            alt: '2',
+            number: '2',
+            film: {
+              src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABRgjTZL_7scxCBGE7BE0EhwqhH6VM2UcWCxu138wjrl3-eP_cG0gHgH4lmO-W-H5-uHH8zsZnuLMd-iJpUOHTc-uQPmqm7iqftxbdFSnExBBP4RhDal-s9I-KKTOgQ.webp?r=a7a',
+              alt: 'hola',
+            },
           },
           {
-            src: '../../../../assets/3.png',
-            alt: '3',
+            number: '3',
+            film: {
+              src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABepugI7o9JGhrQJ9Lx5BTdlg1YZkNh2OLFvqW4ubDXkvVvE9NIhb949zu5HWR8yx_uC0iJIpF5Wo_zKi9uPjOpyK675JdZCVEtdou2KPgt48upWp7ztgi-nHstY_Ow.webp?r=e9c',
+              alt: 'hola',
+            },
           },
           {
-            src: '../../../../assets/4.png',
-            alt: '4',
+            number: '4',
+            film: {
+              src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABdFpVuebfftmjgzi_H78bP9ssS7SVoMVW1E-ZfbDUL65l7eSbvAxMC7lmIxs-YRyjkNrILrK__efOEHTQpF_Ezz7WkEREmrDxboPrS6stzpjI9LAOOeMtzTpfcQI5Q.webp?r=94f',
+              alt: 'hola',
+            },
           },
           {
-            src: '../../../../assets/5.png',
-            alt: '5',
+            number: '5',
+            film: {
+              src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABRk5dnEe5Xa8oCT_h9zIPZ0ckgbLyh8VQRiEp4qDPdt1kpAH-6cLRKPs5NDuwV_lxaOKch4bsG0r86eWx4aW47PQeE1xAcTHQVKNt9f7AtOXWVxHL4vHMSkXDD9AbA.webp?r=38f',
+              alt: 'hola',
+            },
           },
         ],
       },
@@ -82,7 +97,7 @@ export class GlobalComponent implements OnInit {
             alt: '1',
           },
           {
-            src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSmUkMyx4Ol-NM1n_no0USonP6FhvPhUMFvzNULmARzjA3utL1Dg9MaLHdeIVJqadsJNM8MCPa6bEhMxmebkJylFl9KljkjkoI1LJVHxrkEFn918TCti_myaKMYMzTzS3ndDx8PfAq-PgOqmZKb1yV_r2XntiCT10p7BEZ3AeQBFceyunOnOwOk.jpg?r=09e',
+            src: 'https://occ-0-3281-358.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABd_JVY6mrYuKHBR7sUtnrRAKuQtCccP6B0aEuWeEoFclpmi1qG5Pr0M9D8Lsbt7PuxbfU2brdusglep-OUPu3iQYW4vPtCS7GAAuFVS8tNUrZ-9JE0r6_KOML70B.jpg?r=c53',
             alt: '2',
           },
           {

@@ -19,7 +19,7 @@ export interface Img {
 
 export interface Hero {
     title: string;
-    imgGallery: Img[];
+    gallery: Gallery[];
 } 
 
 export interface Films {
@@ -30,6 +30,11 @@ export interface Films {
 export interface Series {
     title: string;
     imgGallery: Img[];
+}
+
+export interface Gallery {
+    number: string;
+    film: Img;
 }
 
 

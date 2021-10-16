@@ -7,9 +7,15 @@
     display: flex;
     flex-direction: row;
     float: left;
+    align-items: center;
+}
+
+.nav-contain h3{
+    margin-right:50px ;
 }
 
 .nav-contain img{
+    margin: 30px;
     width: 100px;
     margin-right: 20px;
 }
@@ -32,16 +38,11 @@
 
 
 @media (max-width: 576px){
-    .nav-logo h1{
+    .nav-logo h3{
         opacity: 0%;
+    }
+    .nav-logo img{
+        width: 60%;
     }
 }
 
-@media (max-width: 576px){
-    .nav-logo img{
-        width: 60%;
-        height: 93px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-}

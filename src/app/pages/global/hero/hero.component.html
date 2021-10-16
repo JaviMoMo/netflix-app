@@ -3,6 +3,9 @@
         <h2>{{hero.title}}</h2>
     </div>
     <div class="hero-images">
-        <img *ngFor="let img of hero.imgGallery" src="{{img.src}}" alt="{{img.alt}}">
+        <div *ngFor="let gallery of hero.gallery" class="images-number">
+            <h2>{{gallery.number}}</h2>
+            <img src="{{gallery.film.src}}" alt="{{gallery.film.alt}}">
+        </div>
     </div>
 </div>
